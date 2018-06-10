@@ -1,0 +1,282 @@
+
+html, body {
+margin: 0px !important;
+padding: 0px !important;
+border: 0px !important;
+}
+
+/* --------Posts on homepage-------- */
+ .has-post-thumbnail {
+  display: block;
+  background-color: gray;
+  width: auto !important;
+  height: 300px;
+}
+
+/*--------Post-Page--------*/
+.post-page {
+  width: calc(100vw/1.5);
+  margin: auto;
+  text-align: center;
+}
+/*--------Slider size-constraint--------*/
+
+.attachment-full {
+  max-width: 100%;
+  height: auto;
+}
+
+.post-page-img {
+  margin: auto;
+  max-width: 757px;
+  height: auto;
+}
+/*--------Slider CSS--------*/
+.prev {
+  position: relative;
+  top: 430px;
+  right: 500px;
+  display: inline-block;
+}
+
+.next {
+  position: relative;
+  left: 500px;
+  bottom: 25px;
+}
+.mySlides {
+  display: none;
+}
+
+/*--------Header--------*/
+.header {
+  grid-area: header;
+  background-color: #0080FF;
+  display: inline-block;
+  width: 100%;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  text-align:left;
+  font-size: 12px;
+  background-color: #0080FF;
+}
+#nav a {
+  padding: 0 8px 0 8px;
+}
+#nav h3 {
+  font-size: 24px;
+  margin: 0;
+}
+#dropdown-btn {
+  height: 48px;
+  width: 48px;
+  float: right;
+}
+#dropdown-btn:hover {
+  background-color: black;
+}
+.dropdown-content {
+  font-size: 28px;
+  list-style-type: none;
+  width: 120px;
+  height:auto;
+  background-color: gray;
+  overflow: hidden;
+  float: right;
+  clear:right;
+  position: relative;
+  bottom: 15px;
+}
+
+.dropdown-item {
+  display: block;
+  padding: 6px 8px 6px 8px;
+}
+
+.dropdown-item:hover {
+  background-color: grey;
+}
+
+/*--------Intro--------*/
+/* disabled in mobile */
+.intro {
+  grid-area: intro;
+  text-align: center;
+  margin: 5px;
+  display:none;
+}
+
+/*--------Service--------*/
+.service {
+  display: flex;
+  margin-top: 15px;
+  grid-area: service;
+  /* background-color: pink; */
+  overflow: hidden;
+  justify-content: space-around;
+}
+
+.service img {
+  /* box-shadow: 5px 18px 40px; */
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  vertical-align: top;
+}
+/*-------- Sales --------*/
+.sales {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+  grid-area: sales;
+  /* background-color: blue; */
+  overflow: hidden;
+}
+.sales img {
+  /* box-shadow: 5px 18px 40px; */
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  vertical-align: top;
+
+}
+/*-------- Sub-Grid --------*/
+.sub-grid {
+  box-shadow: 5px 18px 40px;
+  max-width: 100%;
+  height: auto;
+  text-align: center;
+  vertical-align: top;
+}
+
+.inventory {
+  background-color: grey;
+}
+
+/*-------- Footer --------*/
+.footer {
+  color: white;
+  background-color: black;
+  width: 100%;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 90vw;
+  grid-template-rows: auto;
+  grid-template-areas:
+     "sales"
+     "service"
+     "sub-grid";
+  justify-content: center;
+ }
+
+ /*--------Tablet--------*/
+
+@media screen and (min-width: 600px) {
+
+  .grid-container {
+    margin: 20px;
+   display: grid;
+   grid-gap: 15px;
+   grid-template-columns: auto;
+   grid-template-rows: auto;
+   grid-template-areas:
+     "sales service"
+     "sub-grid sub-grid"
+     "intro intro"
+  }
+
+  .photos {
+    background-color: grey;
+    grid-area: photos;
+  }
+  .inventory {
+    grid-area: inventory;
+  }
+  .intro {
+    grid-area: intro;
+    display: inline;
+  }
+  .service {
+    grid-area: service;
+    /* background-color: pink; */
+  }
+  .sales {
+    grid-area: sales;
+    /* background-color: blue; */
+  }
+  .sub-grid {
+    grid-area: sub-grid;
+    background-color: orange;
+    display: grid;
+    grid-template-columns: 33%;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "HP photos inventory"
+  }
+
+  .contact {
+    grid-area: contact;
+  }
+
+  .hours {
+    grid-area: hours;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 1/3vw;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "contact auth hours"
+  }
+
+}
+
+ /*--------Fullscreen--------*/
+ @media screen and (min-width: 920px) {
+  .grid-container {
+   width: calc(100vw/1.5);
+   position: relative;
+   margin: auto;
+   display: grid;
+   grid-gap: 15px;
+   grid-template-columns: 50%;
+   grid-template-rows: auto;
+   grid-template-areas:
+     "sales service"
+     "sub-grid sub-grid"
+     "intro intro"
+
+  }
+
+
+  #dropdown-btn {
+    display: none !important;
+  }
+
+  #phone {
+    display: block;
+    position: relative;
+    padding-left: 10px;
+    font-size: 24px;
+    top: 2px;
+  }
+  .dropdown-content {
+    display: flex !important;
+    width: auto;
+    font-size: 24px;
+    list-style-type: none;
+    height: auto;
+    background-color: inherit;
+    float: center;
+    position: relative;
+    top: 0px;
+  }
+}
