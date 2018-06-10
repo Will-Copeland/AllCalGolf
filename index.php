@@ -30,7 +30,7 @@
   <div class='intro'>
     <header>
 
-      <h2>All Cal Golf & Industrial Vehicles</h2>
+      <h2>All Cal Golf& Industrial Vehicles</h2>
       <h5><i>Providing the best in customer service and quality in California</i></h5>
       </header>
       <p>
