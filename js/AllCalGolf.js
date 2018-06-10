@@ -1,3 +1,5 @@
+var slideIndex = 1;
+
 function moveSlide(n) {
   slideShow(slideIndex += n);
 }
@@ -7,12 +9,13 @@ function slideShow(n) {
   var slides = document.getElementsByClassName('mySlides');
   if (n > slides.length) {slideIndex = 1};
   if (n < 1) {slideIndex = slides.length};
-  
-  console.log(first);
-  $(first).show();
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
 
-  console.log(slides);
+  slides[slideIndex-1].style.display = "block";
 }
+
 
 
 $(document).ready(function(){
