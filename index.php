@@ -9,7 +9,7 @@
 
   </div>
 
-<!-- Sub-grid --> 
+<!-- Sub-grid -->
     <div class='sub-grid'>
       <h1>Sub-grid</h1>
     </div>
@@ -30,7 +30,7 @@
   <div class='intro'>
     <header>
 
-      <h2>All Cal Golf& Industrial Vehicles</h2>
+      <h2>All Cal Golf & Industrial Vehicles</h2>
       <h5><i>Providing the best in customer service and quality in California</i></h5>
       </header>
       <p>
@@ -44,8 +44,11 @@
         time to visit our showroom.  We are also available Seaside Golf Cart #3
         on weekends (by appointment) for your convenience.
       </p>
-
+</div>
        <div class='forsale'>
+        <div class="forsale-container">
+
+
       <?php
 			if ( have_posts() ) :
 
@@ -56,23 +59,25 @@
 
             <?php if (has_post_thumbnail() ) { ?>
 
-              <div id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
-              <?php// the_post_thumbnail()?>
-              <a href="<?php echo get_post_permalink() ?>"><h1><?php the_title() ?></h1></a>
-              <h4><?php the_meta() ?></h4>
+              <div class="forsale-post" id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
+              <div class="forsale-img-container"><?php the_post_thumbnail()?></div>
+              <a href="<?php echo get_post_permalink() ?>"><h4><?php the_title() ?></h4></a>
+              <?php the_meta() ?>
 
             </div>
 
           <?php  } ?>
-          </div>
+
 
 				<?php endwhile; else: ?>
           <h3>You don't have any posts!</h3>
 
 			<?php endif;
 			?>
+      </div>
+    </div>
     </div>
   </div>
-</div>
+
 
 <?php get_footer(); ?>
