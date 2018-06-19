@@ -14,17 +14,11 @@
       <!-- Header -->
       <header class='header'>
         <!-- <svg id='logo'>Logo</svg> -->
-        <div id='nav'>
-          <h3 id='phone'>
-            (925) 363-5505
-          </h3>
-
-
 
         <div id='dropdown-nav'>
           <img id='dropdown-btn' src='http://www.yok.gov.tr/YOK_Dergisi/YOK_Dergi_04/HTML/files/assets/basic-html/styles/mobile-menu.png'
           alt='dropdown'></img>
-          <div class='dropdown-content' style='display: none'>
+          <div class='dropdown-content' style="display:none">
             <li class="dropdown-item">
               <a>Service</a>
             </li>
@@ -39,8 +33,11 @@
             </li>
           </div>
         </div>
+        <div id='nav'>
+          <h3 id='phone'>
+            Call Today! (925) 363-5505
+          </h3>
         </div>
-        </div>
-      </header>
 
+      </header>
     <!-- End Header -->

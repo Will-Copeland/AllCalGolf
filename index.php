@@ -1,37 +1,58 @@
   <?php get_header(); ?>
 
-<div class="grid-container">
-
-
-  <!-- Rentals -->
-  <!-- Usually in sub-grid, this is for mobile -->
-  <div class="mobile-rentals">
-
+  <div class="jumbotron">
+    <div class="jumbotron-item">
+      <div class="jumbotron-content">
+        <h1>BRAND NEW CARTS, MADE TO ORDER</h1>
+        <p>With the most versatile factory options available,
+        we're confident we can satisfy your use-case.</p>
+        <a class="link" href="tbd">LEARN MORE</a>
+      </div>
+    </div>
   </div>
 
-<!-- Sub-grid -->
-    <div class='sub-grid'>
-      <h1>Sub-grid</h1>
-    </div>
+<div class="grid-container">
+  <div class="homepage-line">
 
+  </div>
     <!-- Service -->
       <div class='service'>
         <a href="http://localhost/wp-vs-495/sample-page/">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/sample.jpg">
+          <img src="<?php echo get_template_directory_uri(); ?>/images/sample.jpg"/>
         </a>
       </div>
-
+      <div class="service-2">
+        <div class="service-2-content">
+          <h1>Diverse Service Options</h1>
+          <p>From personal repairs to commercial fleet maintaince, our technicians will
+            keep you going.
+          </p>
+          <a class="link" href="tbd">SCHEDULE SERVICE</a>
+        </div>
+      </div>
+      <!-- Spacer -->
+      
 <!-- Sales -->
     <div class='sales'>
-      <img src="<?php echo get_template_directory_uri(); ?>/images/sample.jpg">
+      <a href="http://localhost/wp-vs-495/sample-page/">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/sample.jpg"/>
+      </a>
     </div>
+
+    <div class="sales-2">
+      <div class="sales-2-content">
+        <h1>Brand New Carts</h1>
+        <p>See what we have on hand, or come see us for a custom order.</p>
+        <a class="link" href="tbd">INVENTORY</a>
+      </div>
+    </div>
+
 
 <!-- Intro -->
   <div class='intro'>
     <header>
-
       <h2>All Cal Golf & Industrial Vehicles</h2>
-      <h5><i>Providing the best in customer service and quality in California</i></h5>
+      <h3><i>Providing the best in customer service and quality in California</i></h3>
       </header>
       <p>
         All Cal Golf & Industrial Vehicles in Concord, CA, is a Golf Car
@@ -44,39 +65,27 @@
         time to visit our showroom.  We are also available Seaside Golf Cart #3
         on weekends (by appointment) for your convenience.
       </p>
-</div>
-       <div class='forsale'>
-        <div class="forsale-container">
+    </div>
 
-
+    <div class='forsale'>
       <?php
 			if ( have_posts() ) :
-
 				/* Start the Loop */
 				while ( have_posts() ) : the_post(); ?>
-
-
-
             <?php if (has_post_thumbnail() ) { ?>
-
               <div class="forsale-post" id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
               <div class="forsale-img-container"><?php the_post_thumbnail()?></div>
               <a href="<?php echo get_post_permalink() ?>"><h4><?php the_title() ?></h4></a>
               <?php the_meta() ?>
-
             </div>
-
           <?php  } ?>
-
-
 				<?php endwhile; else: ?>
           <h3>You don't have any posts!</h3>
-
 			<?php endif;
 			?>
       </div>
     </div>
-    </div>
+
   </div>
 
 
