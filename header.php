@@ -25,25 +25,25 @@
 
             <a href="<?php echo get_home_url() ?>">
               <li class="dropdown-item">
-                Home
+                HOME
               </li>
             </a>
 
             <a href="">
             <li class="dropdown-item">
-              Rentals
+              RENTALS
             </li>
             </a>
 
             <a href="http://localhost/wp-vs-495/inventory/">
             <li class="dropdown-item">
-              Inventory
+              INVENTORY
             </li>
             </a>
 
             <a href="">
             <li class="dropdown-item">
-              Link
+              SERVICE
             </li>
             </a>
           </div>
