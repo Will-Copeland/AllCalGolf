@@ -10,10 +10,10 @@
   		$temp = $wp_query; $wp_query= null;
   		$wp_query = new WP_Query(); $wp_query->query('posts_per_page=5' . '&paged='.$paged);
   		while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-
+    <div class="inventory-post">
   		<h2><a href="<?php the_permalink(); ?>" title="Read more"><?php the_title(); ?></a></h2>
   		<?php the_excerpt(); ?>
-
+    </div>
   		<?php endwhile; ?>
 
   		<?php if ($paged > 1) { ?>
