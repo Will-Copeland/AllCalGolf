@@ -4,18 +4,43 @@
 <div class="inventory-page">
   <div class="inventory-container">
 
-    <article>
 
-  		<?php // Display blog posts on any page @ https://m0n.co/l
+
+  		<?php
+      //Clear WP_Query
   		$temp = $wp_query; $wp_query= null;
-  		$wp_query = new WP_Query(); $wp_query->query('posts_per_page=5' . '&paged='.$paged);
-  		while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
-    <div class="inventory-post">
-  		<h2><a href="<?php the_permalink(); ?>" title="Read more"><?php the_title(); ?></a></h2>
-  		<?php the_excerpt(); ?>
-    </div>
-  		<?php endwhile; ?>
+      //New Query
+  		$wp_query = new WP_Query(); $wp_query->query('posts_per_page=20' . '&paged='.$paged);
 
+      //Start the Loop
+  		while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+
+
+      <div class="inventory-post" id="post-<?php the_ID(); ?>"
+         <?php post_class(); ?> >
+
+      <div class="inventory-post-img">
+        <div class="inventory-post-img-container">
+          <?php the_post_thumbnail()?>
+        </div>
+      </div>
+
+      <div class="inventory-post-info">
+        <h2><?php the_title(); ?></h2>
+    		<?php the_excerpt(); ?>
+
+        <a class="link" href="<?php the_permalink(); ?>" title="Read more">DETAILS</a>
+
+    </div>
+
+  </div>
+    <div class="inventorypage-line"></div>
+  		<?php
+      // Stop The Loop after 20 posts
+    endwhile;
+      ?>
+
+      <!-- if we aren't on pg1, add prev button -->
   		<?php if ($paged > 1) { ?>
 
   		<nav id="nav-posts">
@@ -24,18 +49,18 @@
   		</nav>
 
   		<?php } else { ?>
-
+        <!-- if on pg1, no prev button -->
   		<nav id="nav-posts">
   			<div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
   		</nav>
 
   		<?php } ?>
-
+      <!-- reset post data -->
   		<?php wp_reset_postdata(); ?>
 
-  	</article>
 
-  </div>
+
+</div>
 </div>
 
 <?php get_footer(); ?>

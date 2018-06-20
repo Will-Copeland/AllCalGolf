@@ -1,3 +1,36 @@
-.inventory-container {
-  
+.inventory-page {
+
+}
+
+.inventorypage-line {
+  display: block;
+  margin: auto;
+  width: calc(100vw/1.5);
+  height: 2px;
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+.inventory-post {
+  padding: 12px;
+  margin: auto;
+  /* width: calc(100vw / 1.5); */
+  /* height: 25%; */
+  overflow: hidden;
+  display: block;
+
+}
+
+.inventory-post-img img {
+  height: 200px;
+  max-width: 100%;
+}
+
+.inventory-post-img {
+  /* width: 200px; */
+  height: auto;
+}
+
+.inventory-post-info {
+  text-align: center;
+  margin-bottom: 38px;
+  padding: 14px;
 }

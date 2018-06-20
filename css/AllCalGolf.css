@@ -7,12 +7,7 @@ background-color: #fff;
 
 }
 
-/* --------Posts on homepage-------- */
- .has-post-thumbnail {
-  display: block;
-  width: auto !important;
-  height: 300px;
-}
+
 
 .homepage-line {
   margin: auto;
@@ -157,7 +152,6 @@ background-color: #fff;
  .forsale-img-container {
    padding: 5px;
    height: 40%;
-   background-size: contain;
  }
  .forsale-post img {
    max-width: 100%;
