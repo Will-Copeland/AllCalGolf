@@ -21,7 +21,7 @@
                      ?>
                    </div>
                    <?php
-  	              }
+                 }
                 }
           ?>
           <!-- Next/Prev slider buttons -->

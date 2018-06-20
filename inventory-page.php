@@ -1,27 +1,40 @@
 <?php get_header(); ?>
-<?php /* Template Name: inventory-page
-         Template Post Type: page*/ ?>
+<?php /* Template Name: inventory-page*/ ?>
 
 <div class="inventory-page">
   <div class="inventory-container">
-    <div class='forsale'>
 
-      <?php
-			if ( have_posts() ) :
-				/* Start the Loop */
-				while ( have_posts() ) : the_post(); ?>
-            <?php if (has_post_thumbnail() ) { ?>
-              <div class="forsale-post" id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
-              <div class="forsale-img-container"><?php the_post_thumbnail()?></div>
-              <a href="<?php echo get_post_permalink() ?>"><h4><?php the_title() ?></h4></a>
-              <?php the_meta() ?>
-            </div>
-          <?php  } ?>
-				<?php endwhile; else: ?>
-          <h3>You don't have any posts!</h3>
-			<?php endif;
-			?>
-      </div>
+    <article>
+
+  		<?php // Display blog posts on any page @ https://m0n.co/l
+  		$temp = $wp_query; $wp_query= null;
+  		$wp_query = new WP_Query(); $wp_query->query('posts_per_page=5' . '&paged='.$paged);
+  		while ($wp_query->have_posts()) : $wp_query->the_post(); ?>
+
+  		<h2><a href="<?php the_permalink(); ?>" title="Read more"><?php the_title(); ?></a></h2>
+  		<?php the_excerpt(); ?>
+
+  		<?php endwhile; ?>
+
+  		<?php if ($paged > 1) { ?>
+
+  		<nav id="nav-posts">
+  			<div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
+  			<div class="next"><?php previous_posts_link('Newer Posts &raquo;'); ?></div>
+  		</nav>
+
+  		<?php } else { ?>
+
+  		<nav id="nav-posts">
+  			<div class="prev"><?php next_posts_link('&laquo; Previous Posts'); ?></div>
+  		</nav>
+
+  		<?php } ?>
+
+  		<?php wp_reset_postdata(); ?>
+
+  	</article>
+
   </div>
 </div>
 
