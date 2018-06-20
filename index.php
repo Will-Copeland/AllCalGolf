@@ -12,9 +12,7 @@
   </div>
 
 <div class="grid-container">
-  <div class="homepage-line">
 
-  </div>
     <!-- Service -->
       <div class='service'>
         <a href="http://localhost/wp-vs-495/sample-page/">
@@ -23,7 +21,7 @@
       </div>
       <div class="service-2">
         <div class="service-2-content">
-          <h1>Diverse Service Options</h1>
+          <h1>More Service Options</h1>
           <p>From personal repairs to commercial fleet maintaince, our technicians will
             keep you going.
           </p>
@@ -31,7 +29,7 @@
         </div>
       </div>
       <!-- Spacer -->
-      
+
 <!-- Sales -->
     <div class='sales'>
       <a href="http://localhost/wp-vs-495/sample-page/">
@@ -41,15 +39,19 @@
 
     <div class="sales-2">
       <div class="sales-2-content">
-        <h1>Brand New Carts</h1>
-        <p>See what we have on hand, or come see us for a custom order.</p>
+        <h1>The Latest Models...</h1>
+        <p>See what we have on hand, or come in to place a custom order.</p>
         <a class="link" href="tbd">INVENTORY</a>
       </div>
     </div>
 
 
 <!-- Intro -->
+
   <div class='intro'>
+    <div class="homepage-line">
+
+    </div>
     <header>
       <h2>All Cal Golf & Industrial Vehicles</h2>
       <h3><i>Providing the best in customer service and quality in California</i></h3>
@@ -65,9 +67,13 @@
         time to visit our showroom.  We are also available Seaside Golf Cart #3
         on weekends (by appointment) for your convenience.
       </p>
+      <div class="homepage-line">
+
+      </div>
     </div>
 
     <div class='forsale'>
+
       <?php
 			if ( have_posts() ) :
 				/* Start the Loop */

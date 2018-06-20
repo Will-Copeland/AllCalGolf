@@ -36,11 +36,16 @@
         <!-- End Slideshow -->
 
         <!-- Spacer for styling -->
-      <div class="spacer">
-      </div>
 
+      <div class="spacer">
+
+      </div>
+      <div class="homepage-line post-page-line">
+
+      </div>
         <!-- Where the post-info lives -->
         <div class="post-page-info">
+
         <!-- The Price as meta-data (tags) -->
         <h2><?php the_meta() ?></h2>
 
@@ -57,7 +62,9 @@
       </div>
 
       </div>
+      <div class="homepage-line">
 
+      </div>
       </div>
 
     <?php endwhile; else: ?>

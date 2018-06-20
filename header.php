@@ -18,19 +18,34 @@
         <div id='dropdown-nav'>
           <img id='dropdown-btn' src='http://www.yok.gov.tr/YOK_Dergisi/YOK_Dergi_04/HTML/files/assets/basic-html/styles/mobile-menu.png'
           alt='dropdown'></img>
+
+
+
           <div class='dropdown-content' style="display:none">
+
+            <a href="<?php echo get_home_url() ?>">
+              <li class="dropdown-item">
+                Home
+              </li>
+            </a>
+
+            <a href="">
             <li class="dropdown-item">
-              <a>Service</a>
+              Rentals
             </li>
+            </a>
+
+            <a href="http://localhost/wp-vs-495/inventory/">
             <li class="dropdown-item">
-              <a>Rentals</a>
+              Inventory
             </li>
+            </a>
+
+            <a href="">
             <li class="dropdown-item">
-              <a>Locate</a>
+              Link
             </li>
-            <li class="dropdown-item">
-              <a>Link</a>
-            </li>
+            </a>
           </div>
         </div>
         <div id='nav'>
