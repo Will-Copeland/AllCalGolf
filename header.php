@@ -2,14 +2,14 @@
 <html>
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-         <meta charset="UTF-8">
-         <title>All Cal Golf</title>
-       <meta name="author" content="William Copeland">
-       <meta name="description" content="All Cal Golf Cars & Industrial Vehicles">
-       <meta name="keywords" content="golf,cart,golfcarts, carts, cars,
-       accessories, parts, service, repair, maintaince, forsale, sales,
-       gas, electric, industrial, fleet">
-       <?php wp_head(); ?>
+        <meta charset="UTF-8">
+        <title>All Cal Golf</title>
+        <meta name="author" content="William Copeland">
+        <meta name="description" content="All Cal Golf Cars & Industrial Vehicles">
+        <meta name="keywords" content="golf,cart,golfcarts, carts, cars,
+        accessories, parts, service, repair, maintaince, forsale, sales,
+        gas, electric, industrial, fleet">
+        <?php wp_head(); ?>
     </head>
 
     <body>
