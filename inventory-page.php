@@ -2,10 +2,31 @@
 <?php /* Template Name: inventory-page*/ ?>
 
 <div class="inventory-page">
+
+  <!-- <div class="auth-dealer-sidebar">
+    <div class="auth-info">
+      <p>Don't see what you want?
+      Let us order it for you direct!
+      We're authorized dealers for these brands:</p>
+    </div>
+
+    <div class="ezgo">
+
+    </div>
+    <div class="yamaha">
+
+    </div>
+    <div class="garia">
+
+    </div>
+  </div> -->
   <div class="inventory-container">
-
-
-
+    <div class="inv-info">
+      <h1>Carts in stock:</h1>
+      <p>We keep a number of pre-built carts on-site. Come in for a test drive!
+    </br>Want something a little different? Ask about customization of colors,
+      headlight kits, wheels/tires, seat kits and more!</p>
+    </div>
   		<?php
       //Clear WP_Query
   		$temp = $wp_query; $wp_query= null;

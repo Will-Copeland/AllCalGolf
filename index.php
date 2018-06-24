@@ -2,12 +2,15 @@
 
   <div class="jumbotron">
     <div class="jumbotron-item">
-      <div class="jumbotron-content">
-        <h1>BRAND NEW CARTS, MADE TO ORDER</h1>
-        <p>With the most versatile factory options available,
-        we're confident we can satisfy your use-case.</p>
-        <a class="link" href="tbd">LEARN MORE</a>
+      <div class="jumbotron-container">
+        <div class="jumbotron-content">
+          <h1>BRAND NEW CARTS, MADE TO ORDER</h1>
+          <p>With the most versatile factory options available,
+          we're confident we can satisfy your use-case.</p>
+          <a class="link jumbotron-link" href="tbd">LEARN MORE</a>
+        </div>
       </div>
+
     </div>
   </div>
 

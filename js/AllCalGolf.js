@@ -19,19 +19,21 @@ function slideShow(n) {
   }
   //Make chosen slide visible
   slides[slideIndex-1].style.display = "block";
-}
+};
 
-
-
-$(document).ready(function(){
+function dropDown() {
   $('#dropdown-btn').click(function(){
     console.log("CLICKED!");
     $('.dropdown-content').toggle();
   });
+};
+
+
+$(document).ready(function(){
   //Begin slide count
   var slideIndex = 1;
   slideShow(1);
-
+  dropDown();
 
 
 });

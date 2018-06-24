@@ -45,6 +45,9 @@
       </div>
         <!-- Where the post-info lives -->
         <div class="post-page-info">
+          <!-- <div class="post-info-line">
+
+          </div> -->
 
         <!-- The Price as meta-data (tags) -->
         <h2><?php the_meta() ?></h2>

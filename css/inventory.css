@@ -2,8 +2,24 @@
 
 }
 
+/* .auth-dealer-sidebar {
+  display: table;
+  float: left;
+  position: relative;
+  width: calc(100vw/5);
+  height: 100vw;
+} */
+
+.inventory-container {
+  width: calc(100vw/1.5);
+  margin: auto;
+}
+
+.inv-info {
+  margin-top: 18px;
+}
 .inventorypage-line {
-  display: block;
+  /* display: block; */
   margin: auto;
   width: calc(100vw/1.5);
   height: 2px;
@@ -11,12 +27,12 @@
 }
 .inventory-post {
   padding: 12px;
-  margin: auto;
-  /* width: calc(100vw / 1.5); */
+  margin: 45px auto 45px auto;
+  width: calc(100vw / 1.5);
   /* height: 25%; */
   overflow: hidden;
-  display: block;
-
+  display: flex;
+  justify-content: space-around;
 }
 
 .inventory-post-img img {
@@ -25,12 +41,16 @@
 }
 
 .inventory-post-img {
-  /* width: 200px; */
+  width: 340px;
   height: auto;
 }
 
 .inventory-post-info {
-  text-align: center;
+  text-align: left;
   margin-bottom: 38px;
   padding: 14px;
+}
+
+.inventory-post-info p {
+  width: 350px;
 }

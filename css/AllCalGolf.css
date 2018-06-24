@@ -4,14 +4,18 @@ margin: 0px !important;
 padding: 0px !important;
 border: 0px !important;
 background-color: #fff;
-
 }
 
+h1 {
+  margin: 0px !important;
+  padding: 0px !important;
+  border: 0px !important;
+}
 
 
 .homepage-line {
   margin: auto;
-  width: calc(100vw/1.5);
+  /* width: calc(100vw/1.5); */
   height: 2px;
   background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
 }
@@ -22,7 +26,7 @@ background-color: #fff;
 
 /*-------- Link Styling --------*/
 
-.link {
+.link , .jumbotron-link {
   background: linear-gradient(to right, black 50%, #fff 50%);
   background-size: 200% 100%;
   background-position: right bottom;
@@ -62,7 +66,7 @@ background-color: #fff;
   border-radius: 12px;
 
 }
-
+/* Uses CSS background for text overlay, disabled regular image*/
 .service {
   display: none;
 }
@@ -72,7 +76,7 @@ background-color: #fff;
   width: 100vw;
   color: #fff;
   background: rgba(255, 0, 0, 0.5);
-  padding: 8px;
+  /* padding: 8px; */
   vertical-align: text-top;
   height: 60vw;
 }
@@ -85,6 +89,7 @@ background-color: #fff;
   width: 100vw;
 }
 
+/* Uses CSS background for text overlay, disabled regular image*/
 .sales {
   display: none;
 }
@@ -99,7 +104,7 @@ background-color: #fff;
   font-size: 18px;
   color: #fff;
   height: 60vw;
-  padding: 8px;
+  /* padding: 8px; */
   background: rgba(255, 0, 0, 0.5);
   vertical-align: text-top;
 }
@@ -167,9 +172,9 @@ background-color: #fff;
     margin: 20px;
    display: grid;
    grid-gap: 15px;
-   width: calc(100vw/1.5);
-   grid-template-columns: 50%;
-   grid-template-rows: auto;
+   /* width: calc(100vw/1.5); */
+   grid-auto-columns: 2fr;
+   grid-template-rows: 3fr;
    grid-template-areas:
      "service-2 service"
      "sales sales-2"
@@ -196,25 +201,23 @@ background-color: #fff;
     border: 1px solid black;
   }
 
+  .jumbotron-link {
+    top: 28px;
+  }
+
   .link:hover{
     background-position: left bottom;
     color: #fff;
   }
+
+
   /*-------- Jumbotron --------*/
   .jumbotron {
     display: inline;
 
   }
-  .jumbotron-content{
-    color: white;
-    position: relative;
-    /* top: 20%; */
-    margin-left: 9%;
-    font-size: 16px;
-    /* background: linear-gradient(to right, black , transparent); */
-  }
-  .jumbotron-item {
 
+  .jumbotron-item {
     background: url("../images/Garia.jpg") 0% 50%;
     height: 550px;
     width: 100vw;
@@ -223,6 +226,25 @@ background-color: #fff;
     background-size: cover;
     overflow: hidden;
     background-repeat: no-repeat;
+  }
+
+  .jumbotron-container {
+
+    height: 100%;
+    /* width: auto; */
+    display: inline-block;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.7) 75%, rgba(0, 0, 0, 0.5) 90%, rgba(0, 0, 0, 0.2) 95%, transparent);
+
+  }
+
+  .jumbotron-content{
+    padding-right: 140px;
+    color: white;
+    position: relative;
+    /* top: 20%; */
+    margin-left: 9%;
+    font-size: 16px;
+    /* background: linear-gradient(to right, black , transparent); */
   }
   .photos {
     background-color: grey;
@@ -237,13 +259,17 @@ background-color: #fff;
   }
   /*--------Service--------*/
   .service {
-    display: flex;
-    margin-top: 15px;
+    display: block;
+    /* margin-top: 15px; */
     grid-area: service;
-    overflow: hidden;
-    justify-content: space-around;
-    background-size: cover;
+    /* overflow: hidden; */
+    /* justify-content: space-around; */
+    /* background-size: contain; */
     background: none;
+  }
+
+  .service a {
+    width: 100%;
   }
   .service-2-content {
     width: auto;
@@ -278,14 +304,15 @@ background-color: #fff;
 
   /*-------- Sales --------*/
   .sales {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 15px;
+    display: block;
     grid-area: sales;
-    /* border-radius: 12px; */
-    overflow: hidden;
-    /* background: url("../images/sample.jpg"); */
+
     background-size: contain;
+  }
+
+  .sales a {
+    p
+    width: 100%;
   }
 
   .sales-2 {
@@ -405,13 +432,14 @@ background-color: #fff;
  /*--------Fullscreen--------*/
  @media screen and (min-width: 920px) {
   .grid-container {
+   padding-top: 38px;
    width: calc(100vw/1.5);
    position: relative;
    margin: auto;
    display: grid;
-   grid-gap: 15px;
-   grid-template-columns: 50%;
-   grid-template-rows: auto;
+   grid-gap: 30px;
+   grid-auto-columns: 2fr;
+   grid-template-rows: max-content;
    grid-template-areas:
    "sales-2 sales"
    "service service-2"
@@ -441,6 +469,17 @@ background-color: #fff;
 
   .forsale {
     grid-area: forsale;
+  }
+
+  .sales a{
+    float: right;
+    position: relative;
+  }
+
+
+  .service a {
+    position: relative;
+
   }
 
 
