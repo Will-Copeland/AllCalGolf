@@ -5,8 +5,10 @@
          <meta charset="UTF-8">
          <title>All Cal Golf</title>
        <meta name="author" content="William Copeland">
-       <meta name="description" content="All Cal Golf">
-       <meta name="keywords" content="keywords,here">
+       <meta name="description" content="All Cal Golf Cars & Industrial Vehicles">
+       <meta name="keywords" content="golf,cart,golfcarts, carts, cars,
+       accessories, parts, service, repair, maintaince, forsale, sales,
+       gas, electric, industrial, fleet">
        <?php wp_head(); ?>
     </head>
 
