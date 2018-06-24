@@ -30,10 +30,9 @@ function dropDown() {
 
 
 $(document).ready(function(){
+  dropDown();
   //Begin slide count
   var slideIndex = 1;
   slideShow(1);
-  dropDown();
-
 
 });

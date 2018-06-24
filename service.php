@@ -3,8 +3,14 @@
 <?php get_header(); ?>
 
 <div class="service-page">
+  <!-- Google maps with service call price in stepped circles -->
 
-  <?php the_content(); ?>
+  <!-- Information about diagnosing in the field, and when to schedule for pickup
+  instead of a service call-->
+
+  <!-- Some information about fleet services -->
+
+  <!-- Information about regualar worry-free contract services -->
 </div>
 
 
