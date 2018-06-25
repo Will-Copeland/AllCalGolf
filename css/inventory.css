@@ -1,56 +1,80 @@
-.inventory-page {
-
+.inventory-post-img-container  {
+  /* width: 100px; */
 }
 
-/* .auth-dealer-sidebar {
-  display: table;
-  float: left;
-  position: relative;
-  width: calc(100vw/5);
-  height: 100vw;
-} */
-
-.inventory-container {
-  width: calc(100vw/1.5);
-  margin: auto;
-}
-
-.inv-info {
-  margin-top: 18px;
-}
-.inventorypage-line {
-  /* display: block; */
-  margin: auto;
-  width: calc(100vw/1.5);
-  height: 2px;
-  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
-}
-.inventory-post {
-  padding: 12px;
-  margin: 45px auto 45px auto;
-  width: calc(100vw / 1.5);
-  /* height: 25%; */
-  overflow: hidden;
-  display: flex;
-  justify-content: space-around;
-}
-
-.inventory-post-img img {
-  height: 200px;
+.inventory-post img {
+  height: 10%;
   max-width: 100%;
+  display: block;
 }
 
-.inventory-post-img {
-  width: 340px;
-  height: auto;
+.inv-link {
+  top: -15px;
+  float: right;
 }
 
 .inventory-post-info {
-  text-align: left;
-  margin-bottom: 38px;
-  padding: 14px;
+  padding: 8px;
 }
 
-.inventory-post-info p {
-  width: 350px;
+
+/*-------- Tablet & Fullscreen --------*/
+
+@media screen and (min-width: 600px) {
+  .inventory-page {
+
+  }
+
+  /* .auth-dealer-sidebar {
+    display: table;
+    float: left;
+    position: relative;
+    width: calc(100vw/5);
+    height: 100vw;
+  } */
+
+  .inventory-container {
+    width: calc(100vw/1.5);
+    margin: auto;
+  }
+
+  .inv-info {
+    margin-top: 18px;
+  }
+  .inventorypage-line {
+    /* display: block; */
+    margin: auto;
+    width: calc(100vw/1.5);
+    height: 2px;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+  }
+  .inventory-post {
+    padding: 12px;
+    margin: 45px auto 45px auto;
+    width: calc(100vw / 1.5);
+    /* height: 25%; */
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .inventory-post-img img {
+    height: 200px;
+    max-width: 100%;
+  }
+
+  .inventory-post-img {
+    width: 340px;
+    height: auto;
+  }
+
+  .inventory-post-info {
+    text-align: left;
+    margin-bottom: 38px;
+    padding: 14px;
+  }
+
+  .inventory-post-info p {
+    width: 350px;
+  }
 }

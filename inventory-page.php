@@ -50,7 +50,7 @@
         <h2><?php the_title(); ?></h2>
     		<?php the_excerpt(); ?>
 
-        <a class="link" href="<?php the_permalink(); ?>" title="Read more">DETAILS</a>
+        <a class="link inv-link" href="<?php the_permalink(); ?>" title="Read more">DETAILS</a>
 
     </div>
 
