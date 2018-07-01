@@ -3,6 +3,10 @@
 <?php get_header(); ?>
 
 <div class="service-page">
+
+  <div class="service intro">
+
+  </div>
   <!-- Google maps with service call price in stepped circles -->
 
   <!-- Information about diagnosing in the field, and when to schedule for pickup

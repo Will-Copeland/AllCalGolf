@@ -4,6 +4,9 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <title>All Cal Golf</title>
+
+<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
         <meta name="author" content="William Copeland">
         <meta name="description" content="All Cal Golf Cars & Industrial Vehicles">
         <meta name="keywords" content="golf,cart,golfcarts, carts, cars,

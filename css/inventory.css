@@ -40,6 +40,12 @@
 
   .inv-info {
     margin-top: 18px;
+    border-left: 1px solid black;
+    border-bottom: linear-gradient(to right, black 75%, transparent);
+  }
+
+  .inv-link {
+    top: 42px;
   }
   .inventorypage-line {
     /* display: block; */

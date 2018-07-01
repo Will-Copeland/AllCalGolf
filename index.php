@@ -13,7 +13,9 @@
 
     </div>
   </div>
+  <div class="home-spacer">
 
+  </div>
 <div class="grid-container">
 
     <!-- Service -->
@@ -32,7 +34,9 @@
         </div>
       </div>
       <!-- Spacer -->
+      <div class="home-spacer">
 
+      </div>
 <!-- Sales -->
     <div class='sales'>
       <a href="http://localhost/wp-vs-495/sample-page/">

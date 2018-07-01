@@ -4,6 +4,12 @@ margin: 0px !important;
 padding: 0px !important;
 border: 0px !important;
 background-color: #fff;
+
+
+    font-family: 'Cinzel', serif;
+
+font-weight: 200;
+line-height: 22px;
 }
 
 h1 {
@@ -177,10 +183,16 @@ h1 {
    grid-template-rows: 3fr;
    grid-template-areas:
      "service-2 service"
+     "spacer spacer"
      "sales sales-2"
      "sub-grid sub-grid"
      "intro intro"
      "forsale forsale"
+  }
+  /*-------- Home-spacer --------*/
+  .home-spacer {
+    width: 100%;
+    height: 120px;
   }
 
   /*-------- Links --------*/
@@ -241,9 +253,9 @@ h1 {
     padding-right: 140px;
     color: white;
     position: relative;
-    /* top: 20%; */
+    top: 20%;
     margin-left: 9%;
-    font-size: 16px;
+    font-size: 19px;
     /* background: linear-gradient(to right, black , transparent); */
   }
   .photos {
@@ -260,11 +272,8 @@ h1 {
   /*--------Service--------*/
   .service {
     display: block;
-    /* margin-top: 15px; */
+    border-radius: 50%;
     grid-area: service;
-    /* overflow: hidden; */
-    /* justify-content: space-around; */
-    /* background-size: contain; */
     background: none;
   }
 
@@ -292,8 +301,9 @@ h1 {
     max-width: 100%;
     height: auto;
     text-align: center;
-    border-radius: 0px;
+    border-radius: 50%;
     vertical-align: top;
+    box-shadow: 8px -8px 6px gray;
 
   }
 
@@ -306,12 +316,11 @@ h1 {
   .sales {
     display: block;
     grid-area: sales;
-
+    border-radius: 50%;
     background-size: contain;
   }
 
   .sales a {
-    p
     width: 100%;
   }
 
@@ -333,8 +342,8 @@ h1 {
     height: auto;
     text-align: center;
     vertical-align: top;
-    /* border-radius: 12px; */
-    /* box-shadow: 2px 2px 2px; */
+    border-radius: 50%;
+    box-shadow: 8px -8px 6px gray;
 
   }
   .sub-grid {
@@ -368,6 +377,7 @@ h1 {
   .parts img {
     max-width: 100%;
     max-height: 100%;
+
 
   }
 
@@ -430,7 +440,7 @@ h1 {
 }
 
  /*--------Fullscreen--------*/
- @media screen and (min-width: 920px) {
+ @media screen and (min-width: 1026px) {
   .grid-container {
    padding-top: 38px;
    width: calc(100vw/1.5);
@@ -442,10 +452,17 @@ h1 {
    grid-template-rows: max-content;
    grid-template-areas:
    "sales-2 sales"
+   "spacer spacer"
    "service service-2"
    "sub-grid sub-grid"
    "intro intro"
    "forsale forsale"
+}
+
+/*-------- Home-spacer --------*/
+.home-spacer {
+  width: 100%;
+  height: 120px;
 }
 
   .jumbotron-content{
@@ -466,7 +483,9 @@ h1 {
     background-repeat: no-repeat;
   }
 
-
+  .link {
+    /* top: 0; */
+  }
   .forsale {
     grid-area: forsale;
   }
