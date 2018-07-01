@@ -4,12 +4,9 @@ margin: 0px !important;
 padding: 0px !important;
 border: 0px !important;
 background-color: #fff;
-
-
-    font-family: 'Cinzel', serif;
-
+font-family: 'Cinzel', serif;
 font-weight: 200;
-line-height: 22px;
+/* line-height: 22px; */
 }
 
 h1 {
@@ -32,7 +29,7 @@ h1 {
 
 /*-------- Link Styling --------*/
 
-.link , .jumbotron-link {
+.link, .jumbotron-link {
   background: linear-gradient(to right, black 50%, #fff 50%);
   background-size: 200% 100%;
   background-position: right bottom;

@@ -7,6 +7,7 @@ function AllCalGolf_script_enqueue() {
   wp_enqueue_style('post-page-style', get_template_directory_uri() . '/css/post-page.css', array(), '0.0.1', 'all');
   wp_enqueue_style('header-style', get_template_directory_uri() . '/css/header.css', array(), '0.0.1', 'all');
   wp_enqueue_style('footer-style', get_template_directory_uri() . '/css/footer.css', array(), '0.0.1', 'all');
+  wp_enqueue_style('parts-page-style', get_template_directory_uri() . '/css/parts.css', array(), '0.0.1', 'all');
 
   wp_enqueue_script('customjs', get_template_directory_uri() . '/js/AllCalGolf.js', array( 'jquery' ), '0.0.1', true);
 }

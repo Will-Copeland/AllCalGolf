@@ -1,0 +1,12 @@
+
+
+
+
+
+@media screen and (min-width: 600px) {
+
+  .parts-page {
+    width: calc(100vw / 1.5);
+    margin: auto;
+  }
+}
