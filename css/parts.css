@@ -8,5 +8,19 @@
   .parts-page {
     width: calc(100vw / 1.5);
     margin: auto;
+    text-align: center;
+  }
+
+  .parts-intro {
+    margin: 45px 0 45px 0;
+  }
+
+  .vendor-intro {
+    margin: 45px 0 45px 0;
+
+  }
+
+  .vendors img {
+    margin: 45px 0 45px 0;
   }
 }

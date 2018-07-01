@@ -52,7 +52,7 @@
             </li>
             </a>
 
-            <a href="">
+            <a href="http://localhost/wp-vs-495/parts/">
             <li class="dropdown-item">
               PARTS
             </li>
