@@ -21,7 +21,7 @@
     <!-- Service -->
       <div class='service'>
         <a href="http://localhost/wp-vs-495/sample-page/">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/sample.jpg"/>
+          <img src="<?php echo get_template_directory_uri(); ?>/images/parts-img.jpg"/>
         </a>
       </div>
       <div class="service-2">
@@ -40,7 +40,7 @@
 <!-- Sales -->
     <div class='sales'>
       <a href="http://localhost/wp-vs-495/sample-page/">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/sample.jpg"/>
+        <img src="<?php echo get_template_directory_uri(); ?>/images/rentals.jpg"/>
       </a>
     </div>
 

@@ -1,0 +1,30 @@
+
+
+@media screen and (min-width: 600px) {
+  .service-page {
+    width: calc(100vw / 1.5);
+    margin: auto;
+    display: flex;
+    /* flex-direction: column; */
+  }
+
+  .service-intro {
+    width: calc(100% / 3);
+    float: right;
+    margin:auto;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  .service-img {
+
+  }
+  .service-img img {
+    max-width: 500px;
+    position: relative;
+    border-radius: 50%;
+    top: 13%;
+    height: auto;
+    display: block;
+  }
+}
