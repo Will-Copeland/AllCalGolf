@@ -1,9 +1,10 @@
-
 // Adjust slideIndex when button is pressed
 function moveSlide(n) {
   slideShow(slideIndex += n);
 }
-//Slide Show function
+
+//Slide Show function for post-page
+// Currently setup to display only one picture, will implement in V2
 function slideShow(n) {
   //set var and count photos
   var slideIndex = 1;
@@ -21,18 +22,18 @@ function slideShow(n) {
   slides[slideIndex-1].style.display = "block";
 };
 
+// Drop-down menu script
 function dropDown() {
   $('#dropdown-btn').click(function(){
-    console.log("CLICKED!");
+    // console.log("CLICKED!");
     $('.dropdown-content').toggle();
   });
 };
 
 
+
+
 $(document).ready(function(){
   dropDown();
-  //Begin slide count
-  var slideIndex = 1;
   slideShow(1);
-
 });

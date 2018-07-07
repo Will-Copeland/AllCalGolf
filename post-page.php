@@ -24,6 +24,8 @@
                  }
                 }
           ?>
+
+
           <!-- Next/Prev slider buttons -->
 
           <!-- <div class="buttons">
@@ -74,7 +76,6 @@
       <h3>No posts!</h3>
 
     <?php endif; ?>
-
 
 
 <?php get_footer(); ?>

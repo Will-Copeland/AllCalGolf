@@ -34,7 +34,7 @@
               </li>
             </a>
 
-            <a href="">
+            <a href="http://localhost/wp-vs-495/rentals/">
             <li class="dropdown-item">
               RENTALS
             </li>

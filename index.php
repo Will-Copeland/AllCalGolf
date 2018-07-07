@@ -1,7 +1,8 @@
   <?php get_header(); ?>
 
   <div class="jumbotron">
-    <div class="jumbotron-item">
+
+    <div class="jumbotron-item-1 jumbotron-item" style='display: none;'>
       <div class="jumbotron-container">
         <div class="jumbotron-content">
           <h1>BRAND NEW CARTS, MADE TO ORDER</h1>
@@ -12,6 +13,37 @@
       </div>
 
     </div>
+
+    <div class="jumbotron-item-2 jumbotron-item" style='display: none;'>
+      <div class="jumbotron-container">
+        <div class="jumbotron-content">
+          <h1>BRAND NEW CARTS, MADE TO ORDER</h1>
+          <p>With the most versatile factory options available,
+          we're confident we can satisfy your use-case.</p>
+          <a class="link jumbotron-link" href="tbd">LEARN MORE</a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="jumbotron-item-3 jumbotron-item" style='display: none;'>
+      <div class="jumbotron-container">
+        <div class="jumbotron-content">
+          <h1>BRAND NEW CARTS, MADE TO ORDER</h1>
+          <p>With the most versatile factory options available,
+          we're confident we can satisfy your use-case.</p>
+          <a class="link jumbotron-link" href="tbd">LEARN MORE</a>
+        </div>
+      </div>
+
+    </div>
+    <!-- Inline  -->
+    <script type="text/javascript">
+    var tronSlides = document.getElementsByClassName('jumbotron-item');
+    tronSlides[0].style.display = "block";
+    console.log(tronSlides);
+    </script>
+
   </div>
   <div class="home-spacer">
 

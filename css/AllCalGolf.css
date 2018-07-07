@@ -225,9 +225,11 @@ h1 {
     display: inline;
 
   }
-
-  .jumbotron-item {
+  .jumbotron-item-1 {
     background: url("../images/Garia.jpg") 0% 50%;
+  }
+  
+  .jumbotron-item {
     height: 550px;
     width: 100vw;
     max-width: 100vw;
@@ -470,7 +472,6 @@ h1 {
     font-size: 22px;
   }
   .jumbotron-item {
-    background: url("../images/Garia.jpg") 0% 50%;
     height: 550px;
     width: 100vw;
     max-width: 100vw;
