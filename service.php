@@ -9,16 +9,13 @@
 
     <div class="service-intro">
       <h1>PROFESSIONAL RESIDENTIAL AND FLEET SERVICES</h1>
-
-      <h3>Whether you need twenty carts serviced, or just want to know
-        whats making that noise, we've got you covered!
-      </h3>
+      <h3>Call today to schedule</h3>
     </div>
   </div>
 
 </br>
   <div class="service-body">
-    <p>Service Calls start at $55 dollars plus $95/hour labor rate. If you are
+    <p>Service Calls start at $55 depending on distance, plus $95/hour labor rate. If you are
     unsure whether to have us pickup your cart or schedule a service call, give
     us a ring!</p>
 

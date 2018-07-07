@@ -32,6 +32,8 @@
 
   .service-body {
     display: block;
-    clear: left;
+    width: calc(100% / 1.5);
+    text-align: left;
+    font-size: 19px;
   }
 }

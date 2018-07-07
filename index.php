@@ -7,7 +7,7 @@
         <div class="jumbotron-content">
           <h1>GARIA PREMIUM GOLF CARTS</h1>
           <p>As a Garia Authorized Dealer, we offer unmatched luxury...</p>
-          <a class="link jumbotron-link" href="tbd">LEARN MORE</a>
+          <a class="link jumbotron-link" href="http://www.garia.com/">LEARN MORE</a>
         </div>
       </div>
 
@@ -19,7 +19,6 @@
           <h1>BRAND NEW CARTS, MADE TO ORDER</h1>
           <p>With the most versatile factory options available,
           we're confident we can satisfy your use-case.</p>
-          <a class="link jumbotron-link" href="tbd">LEARN MORE</a>
         </div>
       </div>
 
@@ -29,7 +28,7 @@
       <div class="jumbotron-container">
         <div class="jumbotron-content">
           <h1>HIGH PERFORMANCE PARTS AND INSTALLATION</h1>
-          <p>Ask about High Performance parts & installation</p>
+          <p>Ask us about disc brakes, 4x4 kits, and power upgrades</p>
         </div>
       </div>
 
