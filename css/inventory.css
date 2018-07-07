@@ -2,6 +2,14 @@
   /* width: 100px; */
 }
 
+.auth-dealer img {
+  max-width: 100%;
+}
+
+.inv-info {
+  padding: 8px;
+}
+
 .inventory-post img {
   height: 10%;
   max-width: 100%;
@@ -38,9 +46,13 @@
     margin: auto;
   }
 
+  .auth-dealer {
+    text-align: center;
+  }
+
   .inv-info {
     margin-top: 18px;
-    border-left: 1px solid black;
+    /* border-left: 1px solid black; */
     border-bottom: linear-gradient(to right, black 75%, transparent);
   }
 

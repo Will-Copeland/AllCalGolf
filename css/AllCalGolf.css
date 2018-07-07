@@ -11,7 +11,7 @@ font-weight: 200;
 
 h1 {
   margin: 0px !important;
-  padding: 0px !important;
+  /* padding: 0px !important; */
   border: 0px !important;
 }
 
@@ -228,7 +228,15 @@ h1 {
   .jumbotron-item-1 {
     background: url("../images/Garia.jpg") 0% 50%;
   }
-  
+
+  .jumbotron-item-2 {
+    background: url("../images/jumbotron-2.jpg") 0% 50%;
+  }
+
+  .jumbotron-item-3 {
+    background: url("../images/jumbotron-3-1.jpg") 0% 50%;
+  }
+
   .jumbotron-item {
     height: 550px;
     width: 100vw;

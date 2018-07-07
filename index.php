@@ -5,9 +5,8 @@
     <div class="jumbotron-item-1 jumbotron-item" style='display: none;'>
       <div class="jumbotron-container">
         <div class="jumbotron-content">
-          <h1>BRAND NEW CARTS, MADE TO ORDER</h1>
-          <p>With the most versatile factory options available,
-          we're confident we can satisfy your use-case.</p>
+          <h1>GARIA PREMIUM GOLF CARTS</h1>
+          <p>As a Garia Authorized Dealer, we offer unmatched luxury...</p>
           <a class="link jumbotron-link" href="tbd">LEARN MORE</a>
         </div>
       </div>
@@ -29,19 +28,39 @@
     <div class="jumbotron-item-3 jumbotron-item" style='display: none;'>
       <div class="jumbotron-container">
         <div class="jumbotron-content">
-          <h1>BRAND NEW CARTS, MADE TO ORDER</h1>
-          <p>With the most versatile factory options available,
-          we're confident we can satisfy your use-case.</p>
-          <a class="link jumbotron-link" href="tbd">LEARN MORE</a>
+          <h1>HIGH PERFORMANCE PARTS AND INSTALLATION</h1>
+          <p>Ask about High Performance parts & installation</p>
         </div>
       </div>
 
     </div>
-    <!-- Inline  -->
+    <!-- Inline scripting for jumbotron -->
     <script type="text/javascript">
+    var slide = 0;
     var tronSlides = document.getElementsByClassName('jumbotron-item');
-    tronSlides[0].style.display = "block";
-    console.log(tronSlides);
+    tronSlides[slide].style.display = "block";
+
+    setInterval(function () {
+      var tronSlides = document.getElementsByClassName('jumbotron-item');
+      // console.log(tronSlides.length);
+      if (slide === 2) {
+        tronSlides[slide].style.display = "none";
+        slide = 0;
+
+        console.log("slide longer than 3");
+        tronSlides[slide].style.display = "block";
+        console.log(slide);
+      } else {
+        tronSlides[slide].style.display = "none";
+        console.log("slide < 3. Slide: " + slide);
+        slide += 1;
+        tronSlides[slide].style.display = "block";
+        console.log(slide + "Last Log");
+      };
+    }, 8500);
+
+
+    // console.log(tronSlides);
     </script>
 
   </div>

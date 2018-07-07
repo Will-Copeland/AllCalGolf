@@ -21,8 +21,15 @@
     </div>
   </div> -->
   <div class="inventory-container">
+    <h1 style="padding: 8px">Order a custom new cart:</h1>
+
+    <div class="auth-dealer">
+      <a href="http://www.garia.com/" target="_blank"><img src="https://golfcartresource.com/wp-content/uploads/2017/07/Garia-Logo.jpg" alt=""></a>
+      <a href="https://ezgo.txtsv.com/" target="_blank"><img src="http://bvcarts.com/index.php?option=com_nivosliderpro&task=showimage&img=aW1hZ2VzL3NsaWRlMS5qcGc=&w=633&h=246&t=exact" alt=""></a>
+      <a href="https://www.yamahagolfcar.com/golf/" target="_blank"><img src="https://i.pinimg.com/originals/14/b2/3d/14b23d74a168279a26d8ff547f02827b.jpg" alt=""></a>
+  </div>
     <div class="inv-info">
-      <h1>Carts in stock:</h1>
+      <h1>Or check out our carts in stock:</h1>
       <p>We keep a number of pre-built carts on-site. Come in for a test drive!
     </br>Want something a little different? Ask about customization of colors,
       headlight kits, wheels/tires, seat kits and more!</p>
