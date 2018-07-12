@@ -3,7 +3,6 @@
   font-size: 20px;
 }
 .rentals-info {
-  width: calc(100vw / 1.5);
   margin: auto;
   margin-top: 3%;
   text-align: center;
@@ -32,8 +31,19 @@
 }
 
 @media screen and (min-width: 600px) {
+
+  .rentals-info {
+    font-size: 22px;
+    width: calc(100vw / 1.5);
+
+  }
+  
   .rental-item {
     display: flex;
+  }
+
+  .rental-carts {
+    width: calc(100vw / 1.5);
   }
 
   .rental-item-info {

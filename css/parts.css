@@ -9,6 +9,12 @@
   margin: 16px 0 16px 0;
 }
 
+.vendors img {
+  display: block;
+  margin: auto;
+  max-width: 100vw;
+}
+
 
 
 @media screen and (min-width: 600px) {
@@ -27,7 +33,13 @@
     margin: 45px 0 45px 0;
 
   }
-
+  .vendors {
+    display: flex;
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  }
   .vendors img {
     margin: 45px 0 45px 0;
   }

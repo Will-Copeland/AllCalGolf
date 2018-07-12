@@ -1,11 +1,11 @@
 <?php /* Template Name: service-page */ ?>
 
 <?php get_header(); ?>
-
+<img class="service-img" src="<?php echo get_template_directory_uri()?>/images/service-img-1.jpg" alt="service-img">
 <div class="service-page">
 
   <div class="service-container">
-    <img src="<?php echo get_template_directory_uri()?>/images/service-img-1.jpg" alt="service-img">
+
 
     <div class="service-intro">
       <h1>PROFESSIONAL RESIDENTIAL AND FLEET SERVICES</h1>

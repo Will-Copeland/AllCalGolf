@@ -20,7 +20,7 @@
 
       </div>
 
-
+  </div>
       <div class="vendors">
         <a href="https://ezgo.txtsv.com/parts" target="_blank">
            <img src="https://www.jbcgolfcarts.com/sites/default/files/EZGO.png" alt="NivelParts">
@@ -43,7 +43,7 @@
           </a>
 
 
-      </div>
+
 
 
   </div>

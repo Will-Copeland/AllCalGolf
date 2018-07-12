@@ -6,7 +6,7 @@
       <div class="jumbotron-container">
         <div class="jumbotron-content">
           <h1>GARIA PREMIUM GOLF CARTS</h1>
-          <p>As a Garia Authorized Dealer, we offer unmatched luxury...</p>
+          <p>As a Garia Authorized Dealer, we offer unmatched luxury and style</p>
           <a class="link jumbotron-link" href="http://www.garia.com/">LEARN MORE</a>
         </div>
       </div>
@@ -27,8 +27,8 @@
     <div class="jumbotron-item-3 jumbotron-item" style='display: none;'>
       <div class="jumbotron-container">
         <div class="jumbotron-content">
-          <h1>HIGH PERFORMANCE PARTS AND INSTALLATION</h1>
-          <p>Ask us about disc brakes, 4x4 kits, and power upgrades</p>
+          <h1>HIGH PERFORMANCE PARTS AND ACCESSORIES</h1>
+          <p>Ask about Disc Brakes, Power Upgrades, and other accessories</p>
         </div>
       </div>
 
@@ -56,9 +56,7 @@
         tronSlides[slide].style.display = "block";
         console.log(slide + "Last Log");
       };
-    }, 8500);
-
-
+    }, 6000);
     // console.log(tronSlides);
     </script>
 
@@ -70,17 +68,17 @@
 
     <!-- Service -->
       <div class='service'>
-        <a href="http://localhost/wp-vs-495/sample-page/">
-          <img src="<?php echo get_template_directory_uri(); ?>/images/parts-img.jpg"/>
-        </a>
+
+          <img class="homepage-img" src="<?php echo get_template_directory_uri(); ?>/images/parts-img.jpg"/>
+
       </div>
-      <div class="service-2">
-        <div class="service-2-content">
-          <h1>More Service Options</h1>
+      <div class="service-2 homepage-text">
+        <div class="service-2-content homepage-text">
+          <h1>Service Options</h1>
           <p>From personal repairs to commercial fleet maintaince, our technicians will
             keep you going.
           </p>
-          <a class="link" href="tbd">SCHEDULE SERVICE</a>
+          <a class="link" href="tbd">SERVICE</a>
         </div>
       </div>
       <!-- Spacer -->
@@ -89,17 +87,33 @@
       </div>
 <!-- Sales -->
     <div class='sales'>
-      <a href="http://localhost/wp-vs-495/sample-page/">
-        <img src="<?php echo get_template_directory_uri(); ?>/images/rentals.jpg"/>
-      </a>
+
+        <img class="homepage-img" src="<?php echo get_template_directory_uri(); ?>/images/rentals.jpg"/>
+
     </div>
 
-    <div class="sales-2">
-      <div class="sales-2-content">
-        <h1>The Latest Models...</h1>
-        <p>See what we have on hand, or come in to place a custom order.</p>
+    <div class="sales-2 homepage-text">
+      <div class="sales-2-content homepage-text">
+        <h1>New and Used Carts</h1>
+        <p>See what we have on hand, or place a custom order.</p>
         <a class="link" href="tbd">INVENTORY</a>
       </div>
+    </div>
+    <div class="home-spacer-2">
+
+    </div>
+    <!-- Rentals -->
+    <div class="rentals">
+        <img class="homepage-img" src="<?php echo get_template_directory_uri(); ?>/images/Rentals/rentalfleet.jpg" alt=""/>
+
+    </div>
+    <div class="rentals-2">
+      <div class="rentals-content homepage-text">
+        <h1>Turn-Key Rentals</h1>
+        <p>Need a cart for you event or jobsite? Check out our fleet!</p>
+        <a class="link" href="#">RENTAL FLEET</a>
+      </div>
+
     </div>
 
 
@@ -114,15 +128,15 @@
       <h3><i>Providing the best in customer service and quality in California</i></h3>
       </header>
       <p>
-        All Cal Golf & Industrial Vehicles in Concord, CA, is a Golf Car
-        and Industrial Vehicle Dealer specializing in the sale and rental of gas
-        and electric golf carts and utility vehicles to the San Francisco Bay Area
-        and all of Northern California.  Our line up includes new, used, and
-        reconditioned golf carts to suit nearly any budget and purpose.
-        We offer golf cart parts and accessories to help personalize your cart
-        for golf, industrial, or recreational use.  We invite you to schedule a
-        time to visit our showroom.  We are also available Seaside Golf Cart #3
-        on weekends (by appointment) for your convenience.
+        All Cal Golf & Industrial Vehicles in Concord, CA, is a Golf Car and
+        Industrial Vehicle Dealer specializing in the sale and rental of gas and
+         electric golf carts and utility vehicles to the San Francisco Bay Area
+         and all of Northern California.  Our line up includes new, used, and
+         reconditioned golf carts to suit nearly any budget and purpose.
+         We offer golf cart parts and accessories to help personalize your cart
+         for golf, industrial, or recreational use.  We invite you to schedule a
+         time to visit our showroom.  We are also available on weekends
+         (by appointment) for your convenience.
       </p>
       <div class="homepage-line">
 
@@ -139,7 +153,7 @@
               <div class="forsale-post" id="post-<?php the_ID(); ?>" <?php post_class(); ?> >
               <div class="forsale-img-container"><?php the_post_thumbnail()?></div>
               <a href="<?php echo get_post_permalink() ?>"><h4><?php the_title() ?></h4></a>
-              <?php the_meta() ?>
+            <?php the_meta() ?>
             </div>
           <?php  } ?>
 				<?php endwhile; else: ?>

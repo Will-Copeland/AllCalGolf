@@ -29,7 +29,7 @@
       <a href="https://www.yamahagolfcar.com/golf/" target="_blank"><img src="https://i.pinimg.com/originals/14/b2/3d/14b23d74a168279a26d8ff547f02827b.jpg" alt=""></a>
   </div>
     <div class="inv-info">
-      <h1>Or check out our carts in stock:</h1>
+      <h1>Check out our carts in stock:</h1>
       <p>We keep a number of pre-built carts on-site. Come in for a test drive!
     </br>Want something a little different? Ask about customization of colors,
       headlight kits, wheels/tires, seat kits and more!</p>

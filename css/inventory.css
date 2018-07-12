@@ -1,5 +1,5 @@
-.inventory-post-img-container  {
-  /* width: 100px; */
+.inventory-container  {
+  text-align: center;
 }
 
 .auth-dealer img {
@@ -8,6 +8,8 @@
 
 .inv-info {
   padding: 8px;
+  font-size: 20px;
+  text-align: center;
 }
 
 .inventory-post img {
@@ -18,11 +20,14 @@
 
 .inv-link {
   top: -15px;
-  float: right;
+  display: inline-block;
+
 }
 
 .inventory-post-info {
   padding: 8px;
+  text-align: center;
+  font-size: 20px;
 }
 
 
@@ -52,7 +57,6 @@
 
   .inv-info {
     margin-top: 18px;
-    /* border-left: 1px solid black; */
     border-bottom: linear-gradient(to right, black 75%, transparent);
   }
 
