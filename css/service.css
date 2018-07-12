@@ -8,6 +8,17 @@
   max-width: 100vw;
   text-align: center;
   margin: auto;
+  margin-top: 3vh;
+}
+
+table, td, th {
+  text-align: center;
+  border: 1px solid black;
+}
+
+table {
+  /* display: block; */
+  margin:auto;
 }
 
 @media screen and (min-width: 600px) {
