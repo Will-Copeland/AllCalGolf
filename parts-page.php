@@ -41,9 +41,22 @@
          <a href="https://www.nivelparts.com/pages/madjax" target="_blank">
             <img src="https://pbs.twimg.com/profile_images/458224518012477441/X6erusxN.png" alt="NivelParts">
           </a>
-
-
-
+        </br>
+          <a href="http://www.strechplastics.com/" target="_blank">
+            <img src="http://golfcardealers.org/dbg/strechplasticscom.jpg" alt="Stetch Plastics">
+           </a>
+        </br>
+          <a href="http://redhawk.golfcart.com/" target="_blank">
+            <img src="https://www.seviervillegolfcarts.com/fckimages/parts/2.png" alt="">
+          </a>
+        </br>
+          <a href="https://www.trojanbattery.com/" target="_blank">
+            <img src="http://12voltelectrical.com/wp-content/uploads/2016/09/6.jpg" alt="">
+          </a>
+        </br>
+          <a href="https://www.interstatebatteries.com/" target="_blank">
+            <img src="https://www.interstatebatteries.com/images/interstate-logo.png" alt="">
+          </a>
 
 
   </div>
