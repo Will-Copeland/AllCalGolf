@@ -3,7 +3,6 @@
 <?php get_header(); ?>
 
   <div class="rentals-page">
-
     <div class="rentals-info">
       <h1>CALL TO SCHEDULE</h1>
       <h2>Rentals Phone #: <b>(925) 420-3143</b></h2>
@@ -16,14 +15,13 @@
       be used indoors.</li>
       <li>Location: A six passenger cart can carry more people, but will struggle
       with tight turns and steep grades.</li>
-      <li>Activity: Need to move stuff and people? consider supplementing your rental
+      <li>Activity: Need to move equipment and people? consider supplementing your rental
       with a cargo bed equiped cart. Or chose one of our flip-seat carts for
       maximum versatility</li>
     </ul>
-
     </div>
-    <div class="rental-carts">
 
+    <div class="rental-carts">
       <div class="rental-item">
         <img src="<?php echo get_template_directory_uri(); ?>/images/Rentals/6pass.jpg"/>
         <div class="rental-item-info">
@@ -40,7 +38,6 @@
           <p>Our TXT four passenger carts come equiped with a folding rear seat that
           turns into a cargo area.</p>
         </div>
-
       </div>
 
       <div class="rental-item">
@@ -50,9 +47,6 @@
           <p>A waist-high cargo bed an securable tailgate make this a perfect workhorse-
           from coolers to conduit.</p>
         </div>
-
-
-
       </div>
 
       <div class="rental-item">
@@ -62,10 +56,6 @@
           <p>Featuring our largest payload capacity, our flatbed golf carts can transport
           almost all your awkward-shaped things.</p>
         </div>
-
-
-
-
       </div>
 
       <div class="rental-item">
@@ -76,13 +66,16 @@
           cargo beds, perfect for taking the kids for a ride, while squeezing in a
           round of golf later.</p>
         </div>
-
-
-
       </div>
 
+      <div class="rental-item">
+        <img src="<?php echo get_template_directory_uri(); ?>/images/Rentals/2pass-2.jpg" alt="">
+        <div class="rental-item-info">
+          <h3>Yamaha Two Seater</h3>
+          <p>The basic rental, this two passenger cart is perfect for general use.</p>
+        </div>
+      </div>
     </div>
-
   </div>
 
 <?php get_footer(); ?>

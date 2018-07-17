@@ -34,25 +34,25 @@
               </li>
             </a>
 
-            <a href="http://localhost/wp-vs-495/rentals/">
+            <a href="http://allcalgolf.com/rentals/">
             <li class="dropdown-item">
               RENTALS
             </li>
             </a>
 
-            <a href="http://localhost/wp-vs-495/inventory/">
+            <a href="http://allcalgolf.com/inventory/">
             <li class="dropdown-item">
               INVENTORY
             </li>
             </a>
 
-            <a href="http://localhost/wp-vs-495/service/">
+            <a href="http://allcalgolf.com/service/">
             <li class="dropdown-item">
               SERVICE
             </li>
             </a>
 
-            <a href="http://localhost/wp-vs-495/parts/">
+            <a href="http://allcalgolf.com/parts/">
             <li class="dropdown-item">
               PARTS
             </li>

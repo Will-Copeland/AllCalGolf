@@ -46,15 +46,15 @@
         tronSlides[slide].style.display = "none";
         slide = 0;
 
-        console.log("slide longer than 3");
+        // console.log("slide longer than 3");
         tronSlides[slide].style.display = "block";
-        console.log(slide);
+        // console.log(slide);
       } else {
         tronSlides[slide].style.display = "none";
-        console.log("slide < 3. Slide: " + slide);
+        // console.log("slide < 3. Slide: " + slide);
         slide += 1;
         tronSlides[slide].style.display = "block";
-        console.log(slide + "Last Log");
+        // console.log(slide + "Last Log");
       };
     }, 6000);
     // console.log(tronSlides);
@@ -78,7 +78,7 @@
           <p>From personal repairs to commercial fleet maintaince, our technicians will
             keep you going.
           </p>
-          <a class="link" href=" http://localhost/wp-vs-495/service/" target="_blank">SERVICE</a>
+          <a class="link" href="http://allcalgolf.com/service/" target="_blank">SERVICE</a>
         </div>
       </div>
       <!-- Spacer -->
@@ -96,7 +96,7 @@
       <div class="sales-2-content homepage-text">
         <h1>New and Used Carts</h1>
         <p>See what we have on hand, or place a custom order.</p>
-        <a class="link" href="http://localhost/wp-vs-495/inventory/" target="_blank" >INVENTORY</a>
+        <a class="link" href="http://allcalgolf.com/inventory/" target="_blank" >INVENTORY</a>
       </div>
     </div>
     <div class="home-spacer-2">
@@ -111,7 +111,7 @@
       <div class="rentals-content homepage-text">
         <h1>Turn-Key Rentals</h1>
         <p>Need a cart for you event or jobsite? Check out our fleet!</p>
-        <a class="link" href="http://localhost/wp-vs-495/rentals/">RENTAL FLEET</a>
+        <a class="link" href="http://allcalgolf.com/rentals/">RENTAL FLEET</a>
       </div>
 
     </div>

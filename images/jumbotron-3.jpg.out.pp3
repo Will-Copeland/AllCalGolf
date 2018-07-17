@@ -11,21 +11,21 @@ InTrash=false
 Auto=false
 Clip=0.02
 Compensation=0
-Brightness=2
+Brightness=0
 Contrast=0
 Saturation=0
 Black=0
 HighlightCompr=0
-HighlightComprThreshold=0
+HighlightComprThreshold=33
 ShadowCompr=50
-HistogramMatching=false
+HistogramMatching=true
 CurveMode=FilmLike
 CurveMode2=WeightedStd
-Curve=1;0;0;0.062745098039215685;0.050980392156862744;0.25098039215686274;0.36862745098039218;0.37254901960784315;0.59607843137254901;0.49411764705882355;0.77254901960784317;0.61568627450980395;0.90588235294117647;0.87058823529411766;0.99607843137254903;1;1;
+Curve=1;0;0;0.058823529411764705;0.047058823529411764;0.11372549019607843;0.10980392156862745;0.23921568627450981;0.35294117647058826;0.36078431372549019;0.60392156862745094;0.4823529411764706;0.80392156862745101;0.60784313725490191;0.93725490196078431;0.86274509803921573;0.99607843137254903;1;1;
 Curve2=0;
 
 [HLRecovery]
-Enabled=false
+Enabled=true
 Method=Blend
 
 [Retinex]
@@ -81,12 +81,12 @@ Auto=false
 ComplementaryColors=true
 Setting=NormalContrast
 Filter=None
-MixerRed=43
+MixerRed=33
 MixerOrange=33
 MixerYellow=33
 MixerGreen=33
 MixerCyan=33
-MixerBlue=30
+MixerBlue=33
 MixerMagenta=33
 MixerPurple=33
 GammaRed=0
@@ -158,8 +158,8 @@ Uniformity=50
 [White Balance]
 Enabled=true
 Setting=Camera
-Temperature=5375
-Green=0.75900000000000001
+Temperature=5233
+Green=0.76623723445440473
 Equal=1
 TemperatureBias=0
 
@@ -174,7 +174,7 @@ Surrsrc=Average
 AdaptLum=16
 Badpixsl=0
 Model=RawT
-Algorithm=JC
+Algorithm=No
 J-Light=0
 Q-Bright=0
 C-Chroma=0
@@ -228,7 +228,7 @@ C2Method=AUTO
 SMethod=shal
 MedMethod=soft
 RGBMethod=soft
-MethodMed=Lonly
+MethodMed=none
 Redchro=0
 Bluechro=0
 Gamma=1.7
@@ -237,8 +237,8 @@ LCurve=1;0.050000000000000003;0.14999999999999999;0.34999999999999998;0.34999999
 CCCurve=1;0.050000000000000003;0.5;0.34999999999999998;0.34999999999999998;0.34999999999999998;0.050000000000000003;0.34999999999999998;0.34999999999999998;
 
 [EPD]
-Enabled=true
-Strength=0.02
+Enabled=false
+Strength=0.5
 Gamma=1
 EdgeStopping=1.3999999999999999
 Scale=1
@@ -261,10 +261,10 @@ Radius=40
 
 [Crop]
 Enabled=false
-X=0
-Y=0
-W=6008
-H=4008
+X=-1
+Y=-1
+W=6009
+H=4009
 FixedRatio=true
 Ratio=As Image
 Orientation=As Image
@@ -290,9 +290,9 @@ LCPFile=
 UseDistortion=true
 UseVignette=true
 UseCA=false
-LFCameraMake=Nikon Corporation
-LFCameraModel=Nikon D3400
-LFLens=Nikon Nikon AF-P DX Nikkor 18-55mm f/3.5-5.6G VR
+LFCameraMake=
+LFCameraModel=
+LFLens=
 
 [Perspective]
 Horizontal=0
@@ -325,7 +325,7 @@ CenterY=0
 
 [Resize]
 Enabled=false
-Scale=0.14999999999999999
+Scale=1
 AppliesTo=Cropped area
 Method=Lanczos
 DataSpecified=3
@@ -349,7 +349,7 @@ DeconvDamping=0
 DeconvIterations=100
 
 [Color Management]
-InputProfile=(camera)
+InputProfile=(cameraICC)
 ToneCurve=false
 ApplyLookTable=true
 ApplyBaselineExposureOffset=true
@@ -517,8 +517,8 @@ Bluehigh=0
 Autosat=true
 OpacityCurve=1;0;0.29999999999999999;0.34999999999999998;0;0.25;0.80000000000000004;0.34999999999999998;0.34999999999999998;0.69999999999999996;0.80000000000000004;0.34999999999999998;0.34999999999999998;1;0.29999999999999999;0;0;
 ColorCurve=1;0.050000000000000003;0.62;0.25;0.25;0.58499999999999996;0.11;0.25;0.25;
-SatProtectionThreshold=0
-SaturatedOpacity=0
+SatProtectionThreshold=30
+SaturatedOpacity=80
 Strength=50
 HighlightsColorSaturation=60;80;
 ShadowsColorSaturation=80;208;
@@ -530,9 +530,9 @@ LabGridAHigh=0
 LabGridBHigh=0
 
 [RAW]
-DarkFrame=/szeva
+DarkFrame=
 DarkFrameAuto=false
-FlatFieldFile=/szeva
+FlatFieldFile=
 FlatFieldAutoSelect=false
 FlatFieldBlurRadius=32
 FlatFieldBlurType=Area Flatfield

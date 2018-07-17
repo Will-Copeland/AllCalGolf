@@ -39,7 +39,9 @@
     </div>
 
       <div class='auth footer-item'>
-      
+        <div class="author">
+          <p>Website & photography by Will Copeland</p>
+        </div>
       </div>
 
   </footer>
